@@ -1,0 +1,16 @@
+<h2>Modal form</h2>
+<hr>
+<form method="post">
+    {%csrf_token%}
+{{form.as_p}}
+<p><input type="submit" value="save"></p>
+</form>
+<hr>
+
+<hr><table>
+{{form.as_table}}
+</table>
+<hr>
+<hr>
+{{form.as_ul}}
+<hr>

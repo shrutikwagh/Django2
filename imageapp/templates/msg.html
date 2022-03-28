@@ -1,0 +1,7 @@
+<h1> Message App operations</h1>
+<h2 style="color:red">{{fmsg}}</h2>
+<form method="post">
+    {%csrf_token%}
+    <input type="text" name="uname" size="30" placeholder="please enter username">
+    <input type="text" name="password" size="30" placeholder="please enter password">
+    <input type="submit" value="login">
